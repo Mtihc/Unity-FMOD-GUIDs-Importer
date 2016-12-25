@@ -1,2 +1,5 @@
-# Unity-FMOD-GUIDs-Importer
-AssetPostProcessor class that generates a class file whenever a file named GUIDs*.txt is imported into Unity.
+# Unity FMOD GUIDs Importer
+1. Import these classes into your Unity Project `Assets` folder
+1. Export GUIDs from FMOD via `File -> Export GUIDs...`
+1. Place the `GUIDs.txt` file in your Unity Project `Assets` folder
+1. The [FMODGuidsImporter](./Assets/Mitch/Editor/AssetImporters/FMODGuidsImporter.cs) will automatically generate a class, containing all GUIDs as `public static readonly` fields.
